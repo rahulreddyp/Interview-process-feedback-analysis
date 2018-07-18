@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.t1{
+	 background-size:cover;
+	
+	 }
+	
+a {
+  font-size:30px;
+  color:black;
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+  text-decoration: none;
+}
+
+
+a::after,
+a::before {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: green;
+  opacity: 0;
+  transition: .3s;
+}
+
+a:hover::before {
+  top: 0;
+  opacity: 1;
+}
+
+a:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+
+a:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+  color: white;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+#hid{
+
+background: linear-gradient(to right, rgba(0,255,0,0), rgba(0,0,255,1));	
+}
+#hid a{
+	
+	text-decoration: none;
+
+}
+header, footer{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    
+    margin: 0;
+    padding:0;
+    position-absolute;
+   	
+	text-decoration: none;
+    background-color:none;
+}
+
+.relative{position:relative; width:600px;}
+.absolute-text{ margin:top; position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(251,251,251,0.5);
+padding:25vh 21vw; width:100% ; text-align:top;}
+.absolute-text a{font-size:16px; color:#b92b27;}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Feedback analysis of Interview</h1>
+</header>
+<header id="hid">
+<div>
+    <a href="#"><span>Home</span></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="tpologinmain.html"><span>TPO</span></a>&emsp;&emsp;&emsp;&emsp;&emsp; 
+    <a href="seniorlogin.html"><span>Senior</span></a>&emsp;&emsp;&emsp;&emsp;&emsp; 
+    <a href="junior.html"><span>Junior</span></a>&emsp;&emsp;&emsp;&emsp;&emsp; 
+  </div>
+</header>
+
+
+
+<!--<div>
+	<img src="images/ov.png" />
+</div> -->	
+<div class="relative">
+	<img src="images/vjitfull.jpg" alt="check_image" style="width:100vw;height:100vh">
+	<p class="absolute-text">The Training and Placement Cell (TPC) is the back bone of VJIT. 
+It provides a launch pad for students to make the best career for them in the fields of Software & IT, Core Industries (Mechanical, Electronics, Civil and Electrical), Management etc. in the form of Placements and Internships. 
+Over the years, the Cell has maintained good and strong relationship with Industries across the country and as a result, has built up an impressive placement record both in terms of percentage of registered students placed,
+ as well as the number of companies visiting the campus. 
+</p>
+</div>
+
+</body>
+</html>
+

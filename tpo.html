@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<style>
+			a{
+			
+			text-decoration:none;
+			font-size:30px;
+			}
+			#hid{
+				background-color: cyan;
+				}
+
+		header{
+		
+   		 padding: 10px;
+    		color: white;
+    		background-color: black;
+    		clear: left;
+   		text-align: center;
+		}
+		body{
+			background-image: url("tpobg.jpg");
+			background-size:cover;
+			background-repeat:no-repeat;
+			margin:0;
+		}
+		</style>
+	</head>	
+	<body>
+			<center>
+			<header>
+  			 <h1>Feedback analysis of interview</h1>
+			</header>
+			<header id="hid">
+			<a href="sample.html" >Home</a>&nbsp;&nbsp;&nbsp;
+			<a href="tpo.html">TPO</a>&nbsp;&nbsp;&nbsp;
+			<a href="seniorlogin.html">Senior</a>&nbsp;&nbsp;&nbsp;
+			<a href="Junior.html">Junior</a>&nbsp;&nbsp;&nbsp;
+			</header>
+			<h1>TPO Login</h1><br/>
+			<form method="POST" action="averify.jsp">
+			<table align="center" style='position:absolute;top:180pt;left:350pt;'>
+				<tr>
+					<th>Username:</th>
+					<td><input type="text" placeholder="Enter username" name="t1" required/></td>
+				</tr>
+				<tr>
+					<th>Password:</th>
+					<td><input type="password" placeholder="Enter Password" name="t2" required/></td>
+				</tr>
+			</table><br/><br/>
+			<input type="submit" value="login" style='position:absolute;top:250pt;left:450pt;'>
+			</center>
+			</form>
+			
+	</body>
+</html>
